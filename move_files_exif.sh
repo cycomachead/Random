@@ -2,7 +2,7 @@
 # dest dir
 destDir="/Volumes/Macintosh HD/Users/Michael/Documents/Recovery/Photos"
 # directory from Rescue Pro output.
-sourceDir="/Volumes/Macintosh HD/Users/Michael/Documents/Recovery/Recovered Files/Scan 7/Reconstructed Files/Date name"
+sourceDir="/Volumes/Macintosh HD/Users/Michael/Documents/Recovery/Images/"
 
 
 #####
@@ -14,7 +14,7 @@ sourceDir="/Volumes/Macintosh HD/Users/Michael/Documents/Recovery/Recovered File
 
 #######################
 cd "$sourceDir"
-for line in *
+for dir in *
 do
     # Format for loop:
     # 2012-05-20 19-20.jpg
